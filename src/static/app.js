@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="participants">
             <strong>Participants:</strong>
             ${participantList}
-          </div>
+          </div> 
         `;
 
         activitiesList.appendChild(activityCard);
