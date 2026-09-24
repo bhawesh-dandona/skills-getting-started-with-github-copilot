@@ -116,7 +116,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const activity = deleteButton.dataset.activity;
     const email = deleteButton.dataset.email;
-
+    
     try {
       const response = await fetch(
         `/activities/${encodeURIComponent(activity)}/participants/${encodeURIComponent(email)}`,
